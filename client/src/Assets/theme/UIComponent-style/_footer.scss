@@ -1,0 +1,18 @@
+.wrapperFooter{
+    // background-image: url("../img/footer2.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;   
+    width:100%;
+    background-size: 100%; /* make a "best guess" here as a default */
+    background-attachment: fixed;
+    position: relative;
+    a{
+        cursor: pointer;
+        &:hover{
+            color: $success !important;
+        }
+    }
+    .list-group-item {
+        padding: 0.56rem 1rem !important;
+    }
+}

@@ -1,0 +1,25 @@
+.greenBlue{
+    // background-image: linear-gradient(to right top, #22C55E, #374473, #EAEEFF, #707597);
+    background: linear-gradient(to bottom, #00c9ff, #92fe9d);
+}
+
+.blueLight{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.opacityBg-1{
+    background: rgba($color: $dark, $alpha: 0.8) !important;
+}
+
+
+.glassmorphism-1{
+    background: rgba(255,255,255,0.06) !important;
+    backdrop-filter: blur(30px);
+    box-shadow: 1px 3px 17px 4px $dark;
+}
+
+.glassmorphism-2{
+    background: rgba(0,0,0,0.3) !important;
+    backdrop-filter: blur(30px);
+    box-shadow: 1px 3px 17px 4px $dark;
+}

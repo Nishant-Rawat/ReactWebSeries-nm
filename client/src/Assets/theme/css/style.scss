@@ -1,0 +1,48 @@
+/* Global Styling */
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+//Main Colors
+$primary: #8463FB !default;
+$warning: #FD6724;
+$success: #22C55E;
+$danger: #f02849;
+$secondary: #3d3d3d;
+$info: #02B8F6;
+$dark: #000;
+$white: #fff;
+$light: #dedede;
+$theme-colors: ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark);
+// Create your own map
+$primary1: blue ;
+$warning1: #fd854f;
+$success1: #22C5;
+$danger1: red;
+$secondary1: #636363;
+$custom-colors: (
+    "primary1": blue, "secondary1": #636363, "success1": green, "danger1": red, "warning1": #fd854f, "light1": #f5f5f5
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+//Font Family
+$font-family-base: 'Roboto',
+'sans-serif';
+$font-size-base: 0.875rem;
+$line-height-base: 1.6;
+@import '../UIComponent-style/__buttons';
+@import "../UIComponent-style/_navbar";
+@import "../UIComponent-style/_animation";
+@import "../UIComponent-style/shadow";
+@import "../UIComponent-style/_home";
+@import '../UIComponent-style/infoCard';
+@import '../UIComponent-style/footer';
+@import '../UIComponent-style/__customUtilityClasses';
+@import '../UIComponent-style/gradients';
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+* {
+    outline: 0px none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}

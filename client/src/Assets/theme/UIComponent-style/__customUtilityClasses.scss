@@ -1,0 +1,392 @@
+ $utilities: () !default;
+    $utilities: map-merge(
+        (
+            //cursor
+          "cursor": (
+            property: cursor,
+            class: cursor,
+            responsive: true,
+            values: auto pointer grab,
+          ),
+          "object": (
+            property: object-fit,
+            class: objFit,
+            responsive: true,
+            values: cover,
+          ),
+          "opacity": (
+            property: opacity,
+            class: opacity,
+            responsive: true,
+            values: (
+              0: 0,
+              15: .15,
+              25: .25,
+              50: .5,
+              75: .75,
+              90: .9,
+              100: 1,
+            )
+          ),
+          "left": (
+            property: left,
+            class: left,
+            responsive: true,
+            values: (
+              n10: -10%,
+              n15: -15%
+            )
+          ),
+          "top": (
+            property: top,
+            class: top,
+            responsive: true,
+            values: (
+              70: 70%,
+              75: 75%
+            )
+          ),
+          "border-radius": (
+            property: border-radius,
+            class: rounded,
+            responsive: true,
+            values: (
+              15: 15px,
+              35: 35px,
+              40: 40px,
+              p50: 50%,
+            )
+          ),
+          "max-height": (
+              property: max-height,
+              responsive: true, 
+              class: max-height, 
+              values:(
+                3:3px,
+                4:4px,
+                5:5px,
+                6:6px,
+                7:7px,
+                8:8px,
+                9:9px,
+                10:10px,
+                11:11px,
+                12:12px,
+                13:13px                                
+            )
+          ),
+          "height": (
+            property: height,
+            responsive: true, 
+            class: height, 
+            values:(
+              3:3px,
+              4:4rem,
+              5:5rem,
+              6:6rem,
+              7:7px,
+              8:8px,
+              9:9px,
+              10:10rem,
+              11:11px,
+              12:12rem,
+              13:13px,
+              15:15rem,
+              22:22rem,
+              25:25rem,
+              30:30rem,
+              25v: 25vh,
+              77v: 77vh,
+              99v: 99vh,
+              100v: 100vh,
+              110v: 110vh                         
+          )
+        ),
+        "width": (
+          property: width,
+          responsive: true,
+          class: w,
+          values: (
+            3: 3rem,
+            4: 4rem,
+            5: 5rem,
+            6: 7rem,
+            7: 7rem,
+            9: 9rem,
+            10: 10rem,
+            11: 11rem,
+            12: 12rem, 
+            p10 : 10%,
+            25: 25%,
+            30: 30%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            auto: auto
+          )
+        ),
+          "margin-left": (
+            property: margin-left,
+            responsive: true, 
+            class: marg-left, 
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+            n3:-3rem,
+            n4:-4rem,
+            n5:-5rem,
+            n6:-6rem,
+            n7:-7rem,
+            n8:-8rem,
+            n9:-9rem,
+            n10:-10rem,
+            n11:-11rem,
+            n12:-12rem,
+            n13:-13rem,   
+            )                                                   
+          ),
+          "margin-top": (
+            property: margin-top,
+            responsive: true, 
+            class: marg-top, 
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+            n3:-3rem,
+            n4:-4rem,
+            n5:-5rem,
+            n6:-6rem,
+            n7:-7rem,
+            n8:-8rem,
+            n9:-9rem,
+            n10:-10rem,
+            n11:-11rem,
+            n12:-12rem,
+            n13:-13rem,
+            n40:-40rem,
+            n82:-82rem,
+            np2:-2px,
+            np5:-5px,
+          )
+        ),
+        "margin-bottom": (
+          property: margin-bottom,
+          responsive: true, 
+          class: marg-bottom, 
+          values:(
+          3:3rem,
+          4:4rem,
+          5:5rem,
+          6:6rem,
+          7:7rem,
+          8:8rem,
+          9:9rem,
+          10:10rem,
+          11:11rem,
+          12:12rem,
+          13:13rem,
+          20:20rem,
+          n2:-2rem,
+          n3:-3rem,
+          n4:-4rem,
+          n5:-5rem,
+          n6:-6rem,
+          n7:-7rem,
+          n8:-8rem,
+          n9:-9rem,
+          n10:-10rem,
+          n11:-11rem,
+          n12:-12rem,
+          n13:-13rem,
+          n40:-40rem,                                                   
+        )
+      ),
+      "padding": (
+        property: padding,
+        responsive: true, 
+        class: padding, 
+        values:(
+        3:3rem,
+        4:4rem,
+        5:5rem,
+        6:6rem,
+        7:7rem,
+        8:8rem,
+        9:9rem,
+        10:10rem,
+        11:11rem,
+        12:12rem,
+        13:13rem,
+        15: 15rem,
+        20: 20rem,
+        25: 25rem,
+        30: 30rem
+      )
+    ),      
+        "padding-left": (
+            property: padding-left,
+            responsive: true, 
+            class: pad-left, 
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+          )
+        ),
+        "padding-top": (
+            property: padding-top,
+            responsive: true, 
+            class: pad-top,
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+          )
+        ),
+        "padding-bottom": (
+            property: padding-bottom,
+            responsive: true, 
+            class: pad-bottom,
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+          )
+        ),
+        "padding-right": (
+            property: padding-right,
+            responsive: true, 
+            class: pad-right, 
+            values:(
+            3:3rem,
+            4:4rem,
+            5:5rem,
+            6:6rem,
+            7:7rem,
+            8:8rem,
+            9:9rem,
+            10:10rem,
+            11:11rem,
+            12:12rem,
+            13:13rem,
+          )
+        ),
+        "font-size": (
+          property: font-size,
+          responsive: true, 
+          class: textSize, 
+          values:(
+          1: 1rem,
+          2: 2rem,
+          3:3rem,
+          4:4rem,
+          5:5rem,
+          6:6rem,
+          7:7rem,
+          8:8rem,
+          9:9rem,
+          12p:12px,
+          13p:13px,
+          15p:15px,
+          16p:16px,
+          17p:17px,
+          18p:18px,
+          60p:60px
+        )
+      ),
+      "font-weight": (
+        property: font-weight,
+        responsive: true, 
+        class: textWeight, 
+        values:(
+        1: 100,
+        2: 200,
+        3: 300,
+        4: 400,
+        5: 500,
+        6: 600,
+        7: 700,
+        8: 800,
+      )
+    ),
+      ), $utilities);
+
+////Gradients Mixins
+@mixin gradientBg($direction, $startColor, $endColor) {
+    background: $startColor;
+    background: linear-gradient($direction, $startColor, $endColor);
+}
+
+.gradientSuccess-1{
+    @include gradientBg(45deg, #00b09b, #96c93d);
+}
+
+@mixin circleBtn($ht, $wd, ) {
+    width: $wd;
+    height: $ht;
+    border-radius: 50% !important;
+}
+
+.btnCircle20 {
+    @include circleBtn(20px, 20px);
+}
+.btnCircle30 {
+  @include circleBtn(30px, 30px);
+}
+.btnCircle40 {
+  @include circleBtn(40px, 40px);
+}
+.btnCircle50 {
+  @include circleBtn(50px, 50px);
+}
+.btnCircle70 {
+  @include circleBtn(70px, 70px);
+}
+.btnCircle90 {
+  @include circleBtn(90px, 90px);
+}
+.btnCircle100 {
+  @include circleBtn(100px, 100px);
+}
