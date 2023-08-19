@@ -1,0 +1,36 @@
+
+.lastplugSection{
+  border: 5px double $warning;
+}
+
+.techSpecs{
+  ul{
+    li{
+      background: $warning1;
+      color: $white;
+      border-bottom: $white;
+    }
+  }
+}
+
+.footerTextSmartPlug{
+  .addressSmart{
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
+  }
+  .nameSmart{
+    @media screen and (min-width: 900px) {
+      display: none;
+    }
+  }
+}
+
+.showMob{
+  @media screen and (max-width: 500px) {
+      display: block;
+  }
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+}
