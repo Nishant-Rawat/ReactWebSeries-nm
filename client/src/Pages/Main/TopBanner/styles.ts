@@ -19,4 +19,8 @@ export const SocialIcon = styled.div<IconProps>`
   color: ${(props) => props.color};
   font-size: 2rem;
   cursor: pointer;
+  transtion: font-size 3s ease;
+  :hover {
+    font-size: 3rem;
+  }
 `;
