@@ -13,11 +13,6 @@ export default function TopBanner() {
             <h1 className="fw-bold textSize-4">
               <span className="text-primary">Nishant Rawat</span>
             </h1>
-            {/* <h1 className="fw-bold textSize-4 mb-0">You Imagine</h1>
-            <h1 className="fw-bold textSize-4">
-              I <span className="text-primary">do</span> the{" "}
-              <span className="text-primary">Magic</span>
-            </h1> */}
           </div>
           <DescText>
             I'm a skilled JavaScript Developer. I could be your one stop
@@ -32,7 +27,12 @@ export default function TopBanner() {
           </SocialWrapper>
         </Col>
         <Col>
-          <img src={BannerImage} className="img-fluid" alt="Banner" />
+          <img
+            src={BannerImage}
+            className="img-fluid"
+            alt="Banner"
+            style={{ height: "35rem;" }}
+          />
         </Col>
       </Row>
     </Container>

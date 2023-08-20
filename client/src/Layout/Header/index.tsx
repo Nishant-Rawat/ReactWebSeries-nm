@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
-import Logo from "../../Assets/images/logoGen.png";
 import { headerItem } from "./constant";
 import styled from "styled-components";
+import headerLogo from "../../Assets/images/headerLogo.jpg";
 
 const NavItemWrapper = styled.div`
   display: flex;
@@ -27,7 +26,12 @@ function TopNav() {
             className="text-white ms-4"
             style={{ fontFamily: "monospace", fontSize: "1.25rem" }}
           >
-            Nishant Rawat
+            <img
+              src={headerLogo}
+              alt="logo"
+              className="img-fluid rounded-1 height-2 me-1"
+            />
+            {/* Nishant Rawat */}
           </span>
         </NavbarBrand>
         <NavItemWrapper>
