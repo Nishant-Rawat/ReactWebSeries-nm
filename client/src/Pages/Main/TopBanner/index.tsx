@@ -31,7 +31,7 @@ export default function TopBanner() {
             src={BannerImage}
             className="img-fluid"
             alt="Banner"
-            style={{ height: "35rem;" }}
+            style={{ height: "35rem" }}
           />
         </Col>
       </Row>

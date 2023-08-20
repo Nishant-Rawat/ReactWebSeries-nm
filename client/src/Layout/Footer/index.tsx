@@ -14,8 +14,8 @@ const Footer = () => {
             Made With <BsFillHeartFill className="text-danger" /> from India.
           </MadeIn>
         </Col>
-        <Col className="d-flex justify-content-end align-items-start flex-column">
-          <Name className="mb-0">Find me here</Name>
+        <Col className="d-flex justify-content-end align-items-center flex-column">
+          <Name>Find me here</Name>
           <SocialWrapper>
             {socialObj.map((item, index) => (
               <SocialIcon color={item?.color} key={index}>
