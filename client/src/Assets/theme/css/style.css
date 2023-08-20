@@ -9914,6 +9914,10 @@ fieldset:disabled .btn {
   height: 3px !important;
 }
 
+.height-2 {
+  height: 2rem !important;
+}
+
 .height-4 {
   height: 4rem !important;
 }
@@ -12320,6 +12324,9 @@ fieldset:disabled .btn {
   .height-sm-3 {
     height: 3px !important;
   }
+  .height-sm-2 {
+    height: 2rem !important;
+  }
   .height-sm-4 {
     height: 4rem !important;
   }
@@ -13534,6 +13541,9 @@ fieldset:disabled .btn {
   }
   .height-md-3 {
     height: 3px !important;
+  }
+  .height-md-2 {
+    height: 2rem !important;
   }
   .height-md-4 {
     height: 4rem !important;
@@ -14750,6 +14760,9 @@ fieldset:disabled .btn {
   .height-lg-3 {
     height: 3px !important;
   }
+  .height-lg-2 {
+    height: 2rem !important;
+  }
   .height-lg-4 {
     height: 4rem !important;
   }
@@ -15965,6 +15978,9 @@ fieldset:disabled .btn {
   .height-xl-3 {
     height: 3px !important;
   }
+  .height-xl-2 {
+    height: 2rem !important;
+  }
   .height-xl-4 {
     height: 4rem !important;
   }
@@ -17179,6 +17195,9 @@ fieldset:disabled .btn {
   }
   .height-xxl-3 {
     height: 3px !important;
+  }
+  .height-xxl-2 {
+    height: 2rem !important;
   }
   .height-xxl-4 {
     height: 4rem !important;

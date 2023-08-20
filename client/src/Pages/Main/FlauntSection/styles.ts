@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionWrapper = styled.div`
-  padding: 1.5rem 1rem 1rem 1rem;
+  padding: 2rem 10rem 7rem 10rem;
   background-color: #f1f1f1;
 `;
 
@@ -9,6 +9,12 @@ export const SectionHeading = styled.p`
   text-align: center;
   font-weight: 500;
   font-size: 2rem;
+`;
+
+export const SectionIntro = styled.p`
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
 `;
 
 export const Separator = styled.div`

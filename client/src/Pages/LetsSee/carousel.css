@@ -1,0 +1,11 @@
+
+
+.custom-tag
+    img{
+        padding: 0 27rem;
+    height: 22rem;
+    }
+
+    .custom-tag .carousel-inner{
+        height: 24rem;
+    }

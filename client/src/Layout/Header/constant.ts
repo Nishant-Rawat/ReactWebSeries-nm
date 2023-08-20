@@ -1,14 +1,11 @@
 export const headerItem = [
   {
-    title: "About",
+    title: "Preface",
   },
   {
-    title: "Skills",
+    title: "Competency",
   },
   {
-    title: "Quotes",
-  },
-  {
-    title: "Contact",
+    title: "Reach Out",
   },
 ];

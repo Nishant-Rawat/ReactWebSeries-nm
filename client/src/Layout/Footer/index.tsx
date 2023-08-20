@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "reactstrap";
 import footerImage from "../../Assets/images/foot.jpg";
-import { Name, SocialIcon, SocialWrapper, MadeIn, FindMe } from "./styles";
+import { Name, SocialIcon, SocialWrapper, MadeIn } from "./styles";
 import { BsFillHeartFill } from "react-icons/bs";
 import { socialObj } from "./constants";
 
@@ -8,15 +8,14 @@ const Footer = () => {
   return (
     <Container className="pt-5 mt-5">
       <Row>
-        {/* <Col></Col> */}
-        <Col className="d-flex justify-content-center align-items-center flex-column">
+        <Col className="d-flex justify-content-start align-items-center flex-column">
           <Name>Nishant Rawat</Name>
           <MadeIn>
             Made With <BsFillHeartFill className="text-danger" /> from India.
           </MadeIn>
         </Col>
-        {/* <Col className="ps-5">
-          <FindMe>Find me</FindMe>
+        <Col className="d-flex justify-content-end align-items-start flex-column">
+          <Name className="mb-0">Find me here</Name>
           <SocialWrapper>
             {socialObj.map((item, index) => (
               <SocialIcon color={item?.color} key={index}>
@@ -24,7 +23,7 @@ const Footer = () => {
               </SocialIcon>
             ))}
           </SocialWrapper>
-        </Col> */}
+        </Col>
       </Row>
       <Row>
         <Col className="d-flex justify-content-center">
