@@ -9,8 +9,11 @@ import {
   Separator,
 } from "./styles";
 import { flauntCards } from "./constants";
+import { useState } from "react";
 
 export default function FlauntSection() {
+  const [a, setA] = useState();
+
   return (
     <SectionWrapper>
       <Container>
