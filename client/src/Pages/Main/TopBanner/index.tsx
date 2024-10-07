@@ -20,7 +20,12 @@ export default function TopBanner() {
           </DescText>
           <SocialWrapper>
             {socialObj.map((item, index) => (
-              <SocialIcon color={item?.color} key={index}>
+              <SocialIcon
+                href={item?.link}
+                target="_blank"
+                color={item?.color}
+                key={index}
+              >
                 {item?.icon}
               </SocialIcon>
             ))}

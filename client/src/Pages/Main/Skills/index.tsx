@@ -11,8 +11,8 @@ import {
 
 export default function Skills() {
   return (
-    <SectionWrapper>
-      <SectionHeading>Competency</SectionHeading>
+    <SectionWrapper id="skills">
+      <SectionHeading>Skills</SectionHeading>
       <Separator />
       <Container>
         <Row className="g-5">

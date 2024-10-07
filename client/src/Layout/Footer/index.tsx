@@ -2,11 +2,11 @@ import { Container, Row, Col } from "reactstrap";
 import footerImage from "../../Assets/images/foot.jpg";
 import { Name, SocialIcon, SocialWrapper, MadeIn } from "./styles";
 import { BsFillHeartFill } from "react-icons/bs";
-import { socialObj } from "./constants";
+import { socialObj } from "../../Pages/Main/TopBanner/constants";
 
 const Footer = () => {
   return (
-    <Container className="pt-5 mt-5">
+    <Container id="contact" className="pt-5 mt-5">
       <Row>
         <Col className="d-flex justify-content-start align-items-center flex-column">
           <Name>Nishant Rawat</Name>
@@ -18,7 +18,12 @@ const Footer = () => {
           <Name>Find me here</Name>
           <SocialWrapper>
             {socialObj.map((item, index) => (
-              <SocialIcon color={item?.color} key={index}>
+              <SocialIcon
+                href={item?.link}
+                target="_blank"
+                color={item?.color}
+                key={index}
+              >
                 {item?.icon}
               </SocialIcon>
             ))}

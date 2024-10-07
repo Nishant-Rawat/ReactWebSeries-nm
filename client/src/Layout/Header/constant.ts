@@ -1,11 +1,14 @@
 export const headerItem = [
   {
     title: "Preface",
+    id: "preface",
   },
   {
-    title: "Competency",
+    title: "Skills",
+    id: "skills",
   },
   {
-    title: "Reach Out",
+    title: "Contact",
+    id: "contact",
   },
 ];
