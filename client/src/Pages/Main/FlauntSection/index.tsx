@@ -17,7 +17,7 @@ export default function FlauntSection() {
         <SectionHeading>Preface</SectionHeading>
         <Separator />
         <Row className="g-5 justify-content-center mt-2">
-          <Col md="7">
+          <Col md="7" className="mt-md-5 mt-2">
             <Row className="g-5">
               {flauntCards.map((item, index) => (
                 <Col key={index} md="6">

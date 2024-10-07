@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Container id="contact" className="pt-5 mt-5">
       <Row>
-        <Col className="d-flex justify-content-start align-items-center flex-column">
+        <Col className="d-md-flex justify-content-start align-items-center flex-column d-none">
           <Name>Nishant Rawat</Name>
           <MadeIn>
             Made With <BsFillHeartFill className="text-danger" /> from India.

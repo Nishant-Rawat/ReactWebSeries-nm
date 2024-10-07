@@ -1,5 +1,10 @@
 import { UncontrolledCarousel } from "reactstrap";
-import { SectionWrapper, SectionHeading, Separator } from "./styles";
+import {
+  SectionWrapper,
+  SectionHeading,
+  Separator,
+  ImageWrapper,
+} from "./styles";
 import { carouselItem } from "./constants";
 import "./carousel.css";
 
@@ -8,9 +13,9 @@ export default function Meme() {
     <SectionWrapper>
       <SectionHeading>Just For Fun</SectionHeading>
       <Separator />
-      <div style={{ height: "24rem" }}>
+      <ImageWrapper>
         <UncontrolledCarousel items={carouselItem} className="custom-tag" />
-      </div>
+      </ImageWrapper>
     </SectionWrapper>
   );
 }

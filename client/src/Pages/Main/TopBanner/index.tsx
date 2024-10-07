@@ -6,17 +6,25 @@ import { socialObj } from "./constants";
 export default function TopBanner() {
   return (
     <Container>
-      <Row className="py-5">
-        <Col className="d-flex justify-content-center flex-column">
+      <Row className="py-md-5 py-3">
+        <Col
+          sm="12"
+          md=""
+          className="d-flex justify-content-center flex-column"
+        >
           <div>
-            <h1 className="fw-bold textSize-4 mb-0">Hy! I'm</h1>
-            <h1 className="fw-bold textSize-4">
+            <h1 className="fw-md-bold textSize-md-4 textSize-3 mb-0">
+              Hy! I'm
+            </h1>
+            <h1 className="fw-md-bold textSize-md-4 textSize-3">
               <span className="text-primary">Nishant Rawat</span>
             </h1>
           </div>
-          <DescText>
-            I'm a skilled JavaScript Developer. I could be your one stop
-            solution for all your UI needs. Do give a chance of service.
+          <DescText className="marg-bottom-1 marg-bottom-sm-0.5">
+            A skilled JavaScript Developer with over 5 years of experience in
+            building scalable and responsive web applications. I could be your
+            one stop solution for all your UI needs. Do give a chance of
+            service.
           </DescText>
           <SocialWrapper>
             {socialObj.map((item, index) => (
@@ -25,13 +33,14 @@ export default function TopBanner() {
                 target="_blank"
                 color={item?.color}
                 key={index}
+                className="textSize-2"
               >
                 {item?.icon}
               </SocialIcon>
             ))}
           </SocialWrapper>
         </Col>
-        <Col>
+        <Col className="d-none d-md-block">
           <img
             src={BannerImage}
             className="img-fluid"
