@@ -1,9 +1,35 @@
 import styled from "styled-components";
 
 export const SectionWrapper = styled.div`
-  padding: 2rem 10rem 5rem 10rem;
   background-color: #000;
   color: #fff;
+  /* Extra small devices (phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    padding: 2rem 0rem 7rem 0rem;
+    .custom-tag img {
+      padding: 0;
+      height: 28rem;
+    }
+    .custom-tag .carousel-inner {
+      height: 31rem;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    padding: 2rem 10rem 5rem 10rem;
+  }
+`;
+
+export const ImageWrapper = styled.div`
+  @media (max-width: 575.98px) {
+    height: 28rem;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    padding: 2rem 10rem 5rem 10rem;
+  }
 `;
 
 export const SectionHeading = styled.p`

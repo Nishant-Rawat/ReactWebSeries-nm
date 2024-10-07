@@ -17,7 +17,5 @@ interface IconProps extends React.HTMLAttributes<HTMLAnchorElement> {
 export const SocialIcon = styled.a<IconProps>`
   margin-right: 1rem;
   color: ${(props) => props.color};
-  font-size: 2rem;
   cursor: pointer;
-  transtion: font-size 3s ease;
 `;

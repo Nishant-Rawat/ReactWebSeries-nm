@@ -3,8 +3,17 @@ import styled from "styled-components";
 interface SectionProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export const SectionWrapper = styled.div<SectionProps>`
-  padding: 2rem 10rem 7rem 10rem;
   background-color: #f1f1f1;
+
+  /* Extra small devices (phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    padding: 2rem 3rem 7rem 3rem;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    padding: 2rem 7rem 7rem 10rem;
+  }
 `;
 
 export const SectionHeading = styled.p`
