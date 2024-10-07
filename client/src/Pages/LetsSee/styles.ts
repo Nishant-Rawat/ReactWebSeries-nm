@@ -18,6 +18,14 @@ export const SectionWrapper = styled.div`
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
     padding: 2rem 10rem 5rem 10rem;
+    .custom-tag img {
+      padding: 0 16rem;
+      height: 22rem;
+    }
+
+    .custom-tag .carousel-inner {
+      height: 24rem;
+    }
   }
 `;
 
