@@ -9,13 +9,10 @@ import {
   Separator,
 } from "./styles";
 import { flauntCards } from "./constants";
-import { useState } from "react";
 
 export default function FlauntSection() {
-  const [a, setA] = useState();
-
   return (
-    <SectionWrapper>
+    <SectionWrapper id="preface">
       <Container>
         <SectionHeading>Preface</SectionHeading>
         <Separator />
@@ -52,10 +49,10 @@ export default function FlauntSection() {
           <Col md="4" className="d-flex justify-content-between flex-column">
             <SectionIntro>
               Greetings! I am a{" "}
-              <span className="text-primary">25-year-old web developer</span>{" "}
+              <span className="text-primary">27-year-old web developer</span>{" "}
               residing in the dynamic city of Bangalore, India. As a Computer
               Science Engineer, I am fortunate to be a part of the incredible
-              team at Embibe, where my passion for crafting exceptional user
+              team at Lenskart, where my passion for crafting exceptional user
               interfaces comes to life.
             </SectionIntro>
             <SectionIntro className="mb-0">

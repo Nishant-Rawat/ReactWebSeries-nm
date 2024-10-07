@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const SectionWrapper = styled.div`
+interface SectionProps extends React.HTMLAttributes<HTMLDivElement> {}
+
+export const SectionWrapper = styled.div<SectionProps>`
   padding: 2rem 10rem 7rem 10rem;
   background-color: #f1f1f1;
 `;

@@ -4,7 +4,7 @@ import { BsCupHot } from "react-icons/bs";
 export const flauntCards = [
   {
     title: "Lines Of Code",
-    number: "70000+",
+    number: "10000+",
     bgColor: "#8463FB",
     color: "#fff",
     icon: <FaFileCode />,

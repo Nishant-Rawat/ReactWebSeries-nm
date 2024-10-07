@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Name = styled.p`
-  font-family: cursive;
   font-size: 3rem;
-  //   color: #8463fb;
 `;
 
 export const MadeIn = styled.p`
@@ -24,11 +22,11 @@ export const SocialWrapper = styled.div`
   flex-direction: row;
 `;
 
-interface IconProps {
+interface IconProps extends React.HTMLAttributes<HTMLAnchorElement> {
   color?: string;
 }
 
-export const SocialIcon = styled.div<IconProps>`
+export const SocialIcon = styled.a<IconProps>`
   margin-right: 1rem;
   color: ${(props) => props.color};
   font-size: 1.5rem;
